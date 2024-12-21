@@ -1,0 +1,271 @@
+
+
+	/* SCSS HEX */
+	$sage: #b6b668ff;
+	$gold-metallic: #ddb95fff;
+	$hunyadi-yellow: #ffb74dff;
+	$sunset: #fed899ff;
+	$cosmic-latte: #fdf8e4ff;
+	$melon: #f1b6acff;
+	$light-coral: #e57373ff;
+	$redwood: #a15a55ff;
+	$liver: #5d4037ff;
+
+
+*{
+	
+}
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+a{
+	color: beige;
+}
+
+	h5	{
+		color: white;
+	}
+
+	.mark{
+		background-color: #E2725B;
+	}
+
+
+	.mike{
+		background-color: #b6b668ff;
+	}
+
+	.miya{
+		background-color:  #a15a55ff;
+	}
+
+/*Image Card Sizing Default*/
+		.mage{
+				height: 450px;
+
+				width: 300px;
+
+				margin: 0px;
+
+				padding: 10px;
+		}
+
+/*NAVBAR*/
+
+
+.nvbr{
+
+							background-color: #fdf8e4ff;
+
+							color: #5d4037ff;
+
+							padding-bottom: 30px;
+
+							padding-top: 30px;
+						}
+
+/*Recipe Descriptions and Image*/
+		.guild{
+			width: 800px;
+			height: 800px;
+		}
+
+		.bag{
+			background-color: #E2725B;
+		}
+
+
+/*buttons*/
+		.navie {
+
+		    border-radius: 50px; 
+
+		    padding: 10px 20px; 
+
+		    background-color: #a15a55ff;
+
+		    margin-right: 10px;
+
+	
+		}
+
+		.navie:hover{
+			background-color: rgba(0, 0, 0, 0.5);
+		}
+
+		.homie{
+			background-color: #ffb74dff;
+
+			color: #5d4037ff;
+
+			padding-bottom: 80px;
+
+			padding-top: 80px;
+
+		}
+
+/*CAROUSEL*/
+
+	.carousel-item {
+
+		    height: 350px; /* Set your desired height for image display */
+
+		    overflow: hidden; /* Hide overflow */
+
+		    position: relative; /* Ensure positioning context for content */
+
+		}
+
+	.carousel-item img {
+
+		    width: 100%; /* Use full width of the carousel item */
+
+		    height: auto; /* Maintain aspect ratio */
+
+		    max-height: 100%; /* Ensure the image doesn't exceed the carousel height */
+
+		    display: block; /* Ensures proper box model */
+
+		    object-fit: cover; /* Cover the entire carousel item without stretching */
+
+		    object-position: center; /* Center the image */
+
+		    margin: auto; /* Center the image */
+
+		}
+
+	h5{
+		font-size: 30px;
+	}
+
+	.txt{
+				background-color: rgba(0, 0, 0, 0.5);;
+	}
+
+
+/* Color Themes	*/
+
+				/*Green Bg, Beige Text*/
+						.first{
+
+							background-color: #b6b668ff;
+
+							color: #fed899ff;
+
+							padding-bottom: 150px;
+
+							padding-top: 150px;
+						}
+
+				/*Orange Bg, Brown Text*/
+						.second{
+							background-color: #ffb74dff;
+
+							color: #5d4037ff;
+
+							padding-bottom: 150px;
+
+							padding-top: 150px;
+						}
+
+				/*Beige Bg, Brown Text*/
+						.third{
+
+							background-color: #fdf8e4ff;
+
+							color: #5d4037ff;
+
+							padding-bottom: 150px;
+
+							padding-top: 150px;
+						}
+
+
+				/*Green Bg, Brown Text*/
+						.fourth {
+
+						    background-color: #b6b668ff; /* Set background to Sage */
+
+						    color: #5d4037ff;           /* Set text color to Liver */
+
+						    padding: 20px;           /* Add some padding for space */
+
+						    border-radius: 8px;      /* Optional: Add rounding effect for aesthetics */
+
+						    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+
+						    padding-bottom: 150px;
+
+							padding-top: 150px;
+
+				}
+
+
+				/*Brown Bg, Beige Text*/
+						.fifth{
+							background-color: #5d4037ff;
+
+							color: #fdf8e4ff;
+
+							padding-bottom: 150px;
+
+							padding-top: 150px;
+						}
+
+/*RECIPE DESCRIPTIONS*/
+		strong{
+			color: black;
+		}
+
+
+		.cardi{
+							background-color: #8E6A5E;
+
+							color: #fdf8e4ff;
+
+							padding: 20px;
+
+							margin: 10px;
+		}
+
+		.mat{
+			background-color:  #d2d48cff;
+			border-radius: 2%;
+			padding:30px;
+		}
+
+		.eng{
+			background-color:  #b6b668ff;
+			border-radius: 2%;
+			padding:10px;
+		}
+
+
+label{
+
+	color: darkblue;
+
+	font-size: 20px;
+
+}
+
+
+.foot{
+	margin: 5%;
+}
+
+footer {
+
+		 background-color: white;
+
+		  color: #00274d;
+
+		  padding: 20px;
+
+		  text-align: center;
+
+		  border-top: 2px solid #847577ff;
+
+}
